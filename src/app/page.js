@@ -43,8 +43,9 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center bg-slate-200'>
       <div>Hello Purwadhika Student</div>
+      <div>Maaf ka baru jalan di console.log HEHE</div>
       <div onClick={alphabetGenerator}>Click to get Data</div>
-      <div onClick={handleCountAlphabet}>test</div>
+      <div onClick={handleCountAlphabet}>Start Count</div>
     </main>
   );
 }
